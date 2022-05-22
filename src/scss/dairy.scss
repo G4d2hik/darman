@@ -1,0 +1,50 @@
+.main-dairy {
+    position: relative;
+    min-height: 100vh;
+    background: url("../img/products/молочная.jpg") fixed (center/cover) no-repeat;
+
+    &__title {
+        font-size: 60px;
+        margin: 250px 0 0 0;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__descr {
+        font-size: 20px;
+        margin: 35px 0 0 0;
+        line-height: 35px;
+        max-width: 670px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 2;
+    }
+    &__inner {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+    }
+    &__button {
+        margin: 35px 0 0 0;
+        width: 250px;
+        height: 70px;
+    }
+}
+.btn {
+    background-color: rgb(255, 136, 0);
+    border-radius: 100px;
+    color: #fff;
+    font-size: inherit;
+    transition: 0.3s all;
+    &:hover {
+        background-color: rgb(236, 220, 68);
+        color: #000;
+    }
+}

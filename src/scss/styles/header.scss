@@ -1,0 +1,32 @@
+.header {
+    padding: 30px 0 0 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+    }
+    &__logo {
+        img {
+            display: block;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    &__link {
+        display: flex;
+    }
+
+    &__link-item {
+        text-transform: capitalize;
+        margin: 0 0 0 60px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 44px;
+        transition: 0.3s all;
+        &:hover {
+            color: rgb(255, 136, 0);
+        }
+    }
+}

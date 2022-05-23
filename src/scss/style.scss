@@ -76,14 +76,6 @@ h6 {
 /*?------Обнуляющие стили--------*/
 /*TODO---Обнулябщие стили--------*/
 
-@import "styles/header.scss";
-@import "styles/main.scss";
-@import "styles/about.scss";
-@import "styles/products.scss";
-@import "styles/contacts.scss";
-@import "styles/footer.scss";
-@import "dairy.scss";
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
@@ -93,3 +85,11 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+@import "styles/header.scss";
+@import "styles/main.scss";
+@import "styles/about.scss";
+@import "styles/products.scss";
+@import "styles/contacts.scss";
+@import "styles/footer.scss";
+@import "dairy.scss";
+@import "styles/media.scss";

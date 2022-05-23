@@ -48,3 +48,21 @@
         color: #000;
     }
 }
+.hamburger {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: rgb(255, 136, 0);
+    }
+}

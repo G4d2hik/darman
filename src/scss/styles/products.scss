@@ -9,7 +9,12 @@
 
     &__row {
         display: flex;
-        margin: 0 -30px;
+        flex-wrap: wrap;
+        margin: 0 -30px 30px -30px;
+        justify-content: center;
+        &:last-child {
+            margin: 0 -30px;
+        }
     }
     &__column {
         padding: 0 15px;

@@ -48,3 +48,12 @@
         color: #000;
     }
 }
+.products__dairy {
+    .products__item-descr {
+        text-align: left;
+        font-size: 18px;
+        span {
+            font-weight: 700;
+        }
+    }
+}
